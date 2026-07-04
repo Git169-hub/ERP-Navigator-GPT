@@ -1,0 +1,21 @@
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Python (future compatibility)
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# macOS
+.DS_Store
