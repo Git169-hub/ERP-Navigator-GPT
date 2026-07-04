@@ -1,19 +1,14 @@
 # ERP Navigator
 
-<p align="center">
-
-<img src="assets/banner.png" alt="ERP Navigator Banner" width="100%">
-
-</p>
-
 <h1 align="center">ERP Navigator</h1>
 
 <p align="center">
-<b>AI-Powered ERP Functional Support Assistant</b><br>
-Built using <b>ChatGPT Custom GPT</b>
-</p>
 
-<p align="center">
+<b>AI-Powered ERP Functional Support Assistant</b>
+
+Built using <b>ChatGPT Custom GPT</b>
+
+</p>
 
 ![Custom GPT](https://img.shields.io/badge/Custom-GPT-10A37F?style=for-the-badge)
 ![GPT-5.5](https://img.shields.io/badge/GPT-5.5-blue?style=for-the-badge)
@@ -120,9 +115,22 @@ ERP Navigator provides structured ERP functional support through documentation-d
 
 ERP Navigator follows a **documentation-driven architecture**. Every user request is processed through a structured system prompt, validated against uploaded ERP documentation, and filtered through safety guardrails before generating a response.
 
-<p align="center">
-<img src="assets/architecture.png" alt="Architecture Diagram" width="900">
-</p>
+```text
+User
+   │
+   ▼
+ChatGPT Custom GPT
+   │
+   ├── System Prompt
+   ├── Knowledge Base
+   ├── Safety Guardrails
+   │
+   ▼
+Response Generation
+   │
+   ▼
+Structured ERP Functional Guidance
+```
 
 ## Architecture Flow
 
@@ -285,72 +293,6 @@ Each response is organized into the following sections whenever applicable:
 - **Important Notice**
 
 This structure helps users quickly understand both the immediate answer and the recommended course of action.
-
----
-
-# 📸 Screenshots
-
-The following screenshots demonstrate ERP Navigator responding to real functional support scenarios.
-
----
-
-## Explain Order-to-Cash Process
-
-<p align="center">
-<img src="assets/order-to-cash.png" width="900" alt="Order-to-Cash">
-</p>
-
-ERP Navigator explains the complete Order-to-Cash (O2C) process with structured guidance, process steps, common issues, and recommendations.
-
----
-
-## Purchase Order Guidance
-
-<p align="center">
-<img src="assets/purchase-order.png" width="900" alt="Purchase Order">
-</p>
-
-Provides step-by-step instructions for creating a Purchase Order while highlighting prerequisites and common mistakes.
-
----
-
-## Posting Period Closed Error
-
-<p align="center">
-<img src="assets/posting-period-closed.png" width="900" alt="Posting Period Closed">
-</p>
-
-Explains the cause of the error, recommended resolution, and when escalation to the Finance team is appropriate.
-
----
-
-## Permission Denied
-
-<p align="center">
-<img src="assets/permission-denied.png" width="900" alt="Permission Denied">
-</p>
-
-Recommends verifying user roles and contacting the ERP Administrator when authorization changes are required.
-
----
-
-## Unsupported ERP Configuration
-
-<p align="center">
-<img src="assets/unsupported-configuration.png" width="900" alt="Unsupported Configuration">
-</p>
-
-Demonstrates how ERP Navigator refuses to invent undocumented configuration procedures and remains within the uploaded knowledge base.
-
----
-
-## Master Data
-
-<p align="center">
-<img src="assets/master-data.png" width="900" alt="Master Data">
-</p>
-
-Provides a documentation-based explanation of ERP Master Data and its role in business processes.
 
 ---
 
@@ -576,32 +518,6 @@ Potential enhancements for ERP Navigator include:
 | Portfolio Ready | ✅ Yes |
 
 ---
-
-# 🤝 Contributing
-
-This repository was created as an educational and portfolio project.
-
-Suggestions, improvements, and constructive feedback are welcome.
-
-If you would like to contribute:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Commit your changes.
-4. Open a Pull Request.
-
----
-
-# 🙏 Acknowledgements
-
-Special thanks to:
-
-- OpenAI for the ChatGPT Custom GPT platform.
-- ERP learning resources that inspired the functional documentation used in this educational project.
-- The AI engineering community for sharing prompt engineering and documentation best practices.
-
----
-
 # 👨‍💻 Author
 
 **Razak Shaik**
@@ -641,10 +557,12 @@ See the `LICENSE` file for additional details.
 
 ---
 
+---
+
 <p align="center">
 
-### ⭐ If you found this project helpful, consider giving it a Star!
+Built for educational purposes as part of a Custom GPT development assignment.
 
-**Thank you for visiting ERP Navigator.**
+Thank you for visiting **ERP Navigator**.
 
 </p>
